@@ -17,8 +17,8 @@ pip install -r requirements.txt
 | offline (timeout 5.0)                                                           | 5 out of 5    | 5.04s             |
 | online + tree depth limit (3)                                                   | 5 out of 5    | 3.04s             |
 | online + tree depth limit (5)                                                   | 5 out of 5    | 2.04s             |
-| online + tree depth limit (5) + bootstrap step limit (10) | Text                | 5 out of 5    | 1.42s             |
-| online + tree depth limit (5) + bootstrap step limit (5) | Text                 | 3 out of 5    | 3.34s             |
+| online + tree depth limit (5) + bootstrap step limit (10)                       | 5 out of 5    | 1.42s             |
+| online + tree depth limit (5) + bootstrap step limit (5)                        | 3 out of 5    | 3.34s             |
 | pretraining + online + tree depth limit (5) + bootstrap step limit (5)          | 5 out of 5    | 0.90s             |
 | few shot pretraining + online + tree depth limit (5) + bootstrap step limit (5) | 5 out of 5    | 0.77s             |
 
